@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  font-style: oblique;
+}
+
+:root {
+  --light-green: #00a896;
+  --white: #fff;
+  --black: rgba(0, 0, 0, 0.489);
+  --dark-black: rgba(0, 0, 0, 0.854);
+}
+
+body {
+  background-color: #f5fbef;
+}
+
+header {
+  background-color: var(--dark-black);
+  display: flex;
+  align-items: center;
+  padding: 1%;
+  color: var(--light-green);
+  justify-content: space-between;
+  margin: 0%;
+  height: 100px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+  list-style: none;
+}
+nav a {
+  color: var(--light-green);
+  font-weight: bold;
+  text-decoration: underline;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding: 10px 15px;
+  font-size: 1.5rem;
+}
+
+a:hover {
+  background-color: #fe260afa;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.sub-title {
+  background-image: url("https://cdn.wallpapersafari.com/83/6/DY9RHb.gif");
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+  background-blend-mode: overlay;
+  min-height: 30vh;
+  color: var(--white);
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+h1 {
+  color: var(--dark-black);
+  margin: 0 20 20 0;
+  border-radius: 5px;
+  padding: 0 30px 0 30px;
+  background-color: var(--light-green);
+  height: 60px;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.h2 {
+  margin: 0 30px 15px 0;
+  padding: 20px 30px 20px 30px;
+  background-color: var(--black);
+  border-radius: 20px;
+  font-size: 2rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 3rem;
+}
+
+.bio-section {
+  display: flex;
+}
+
+.about-me {
+  float: left;
+  border-right: solid var(--black);
+  height: 90px;
+  margin: 10px 25px 15px 135px;
+  padding-right: 15px;
+  border-width: 4px;
+  font-size: 2.5rem;
+}
+
+p {
+  width: 83%;
+  padding: 20px;
+  font-style: normal;
+  line-height: 1.5rem;
+}
+
+.container {
+  background-image: url("./digital-marketing-meeting.jpg");
+  background-size: cover;
+  height: 400px;
+
+  background-blend-mode: overla;
+  width: auto;
+  display: flex;
+  align-items: end;
+  margin-right: 120px;
+  border: solid var(--black);
+  border-width: 6px;
+}
+
+.first-container {
+  background-color: var(--light-green);
+  color: var(--white);
+  margin-left: 40px;
+  padding: 8px;
+  border-radius: 10px;
+  padding: 10px 30px;
+  line-height: 1.5rem;
+}
+
+.work {
+  float: left;
+  border-right: solid var(--black);
+  height: 863px;
+  margin: 0 30px 0 20px;
+  padding: 70px;
+  padding-left: 160px;
+  border-width: 4px;
+  width: 140px;
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.led-wall,
+.calculator,
+.puzzels,
+.run-buddy {
+  background-size: cover;
+  height: 150px;
+  background-position: center;
+  width: 44%;
+  border: solid var(--dark-black);
+  border-width: 6px; 
+  background-color: var(--light-green);
+  color: var(--white);
+  display: flex;
+  padding: 8px;
+
+  justify-content: end;
+  flex-direction: column;
+  display: inline-block;
+  padding: 79px 0px 1px 5px;
+}
+
+.led-wall {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThnAcRa5QQ9q_we8Yy0BdnpIf0qReXg9Dbtg&usqp=CAU");
+  margin: 15px 15px 15px 0;
+}
+
+.calculator {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH-YtE2cGq4dRijG3JdUpAyDx1r0ctX9kANg&usqp=CAU");
+  margin: 15px 0 15px 0px;
+}
+
+.puzzels {
+  background-image: url("https://media-exp1.licdn.com/dms/image/C4E16AQGDbKJivcdlEg/profile-displaybackgroundimage-shrink_200_800/0/1594440939904?e=2147483647&v=beta&t=f4giyoIEqMQ1tFtNuGZ9pM7JS9t5ACF2FP4ouOc9U-s");
+  margin: 0px 15px 15px 0;
+}
+
+.run-buddy {
+  background-image: url("https://tse3.mm.bing.net/th?id=OIP.iJzpTYdZZ4EACrVj2Qrs-AHaC-&pid=Api&P=0");
+  margin: 0px 0 15px 0px;
+}
+
+.img-1,
+.img-2,
+.img-3,
+.img-4 {
+  background-color: var(--light-green);
+  color: var(--white);
+  margin-left: 40px;
+  padding: 8px;
+  border-radius: 5px;
+  display: table-cell;
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
+  background: var(--light-green);
+  color: var(--dark-black);
+  font-size: 1.5rem;
+  width: 1020px;
+  margin-left: 285px;
+}
+
+footer a {
+  background-position: bottom;
+  padding: 5px 10px;
+  margin-right: 10px;
+  color: var(--dark-black);
+  
+}
